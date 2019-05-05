@@ -1,0 +1,25 @@
+@import './mixins/medias';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #FBFCFC;
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,700,700i');
+
+    .app {
+        width: 414px;
+        height: 736px;
+
+        &__one {
+            font-size: 50px;
+            font-weight: lighter;
+            text-align: center;
+            margin-top: 250px;
+        }
+
+        &__two {
+            margin-left: 130px;
+        }
+    }
+}

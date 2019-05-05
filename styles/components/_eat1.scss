@@ -1,0 +1,201 @@
+@import './mixins/medias';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,700,700i');
+
+
+    .app {
+        width: 414px;
+        height: 736px;
+        background: #FBFCFC;
+        background-size: 100%;
+
+        &__first {
+            width: 414px;
+            height: 300px;
+            background-color: rgb(105, 135, 114, 0.4);
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            border-bottom-left-radius: 110px 50px;
+            border-bottom-right-radius: 110px 50px;
+            margin-top: -13px;
+
+            &-felp {
+                font-weight: lighter;
+                font-size: 20px;
+                text-align: center;
+                padding: 10px;
+            }
+
+            &-profil {
+                width: 80px;
+                height: 80px;
+                margin-left: 320px;
+                margin-top: -50px;
+            }
+
+            &-month {
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 40px;
+                margin-top: -10px;
+            }
+
+            &-containerD {
+                width: 70%;
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 22px;
+                margin-top: -10px;
+                justify-content: space-between;
+            }
+
+            &-containerDay0 {
+                font-size: 16px;
+                margin-left: 18px;
+                margin-right: 18px;
+                opacity: 0.3;
+            }
+
+            &-containerDay1 {
+                font-size: 16px;
+                margin-left: 18px;
+                margin-right: 18px;
+                font-weight: bold; 
+                text-decoration: underline;
+                text-shadow: 0.5px 0.5px 0.5px black;
+            }
+
+            &-AU {}
+
+            &-AD {}
+
+            &-want {
+                font-size: 16px;
+                margin-left: 40px;
+            }
+
+            &-blocS {
+                width: 160px;
+                height: 44px;
+                border-radius: 8px;
+                box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+                background-color: #fbfcfc;
+                margin-left: 40px;
+                margin-top: 25px;
+            }
+
+            &-search {
+                font-size: 16px;
+                opacity: 0.3;
+                color: #1C2833;
+                margin-top: -31px;
+                margin-left: 77px;
+            }
+
+            &-blocF {
+                width: 70px;
+                height: 44px;
+                margin-left: 210px;
+                margin-top: -54px;
+            }
+
+        }
+
+        &__second {
+            height: 58%;
+            background-color: #FBFCFC;
+
+            &-chance1 {
+                font-size: 16px;
+                margin-top: 60px;
+                margin-left: 40px;
+                margin-bottom: 30px;
+                font-weight: bold;
+            }
+
+            &-container {
+
+            }
+
+            &-containerBR {
+                width: 318px;
+                height: 70px;
+                box-shadow: 1px 1px 3px #aaa;
+                border-radius: 10px;
+                background-color: #F7D2D2;
+                box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+                margin-left: 68px;
+                margin-top: -76px;
+            }
+
+            &-containerImgA {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                margin-left: 35px;
+            }
+
+            &-containerEat {
+                font-size: 16px;
+                margin-left: 125px;
+                margin-top: -100px;
+                line-height: 100px;
+            }
+
+            &-containerBB {
+                width: 318px;
+                height: 70px;
+                box-shadow: 1px 1px 3px #aaa;
+                border-radius: 10px;
+                background-color: #FBFCFC;
+                margin-left: 68px;
+                margin-top: -76px;
+
+            }
+        }
+
+        &__footer {
+            background-color: #f7f7f7;
+            box-shadow: 3px 1px 3px #aaa;
+            width: 414px;
+            height: 61px;
+            position: fixed;
+            bottom: 0;
+
+            &-eat {
+                width: 32px;
+                height: 32px;
+                color: green;
+                margin-left: 45px;
+                margin-top: 11px;
+            }
+
+            &-cook {
+                width: 32px;
+                height: 32px;
+                object-fit: contain;
+                opacity: 0.6;
+                margin-left: 50px;
+            }
+
+            &-ideas {
+                width: 32px;
+                height: 32px;
+                object-fit: contain;
+                opacity: 0.6;
+                margin-left: 60px;
+            }
+
+            &-msg {
+                width: 32px;
+                height: 32px;
+                object-fit: contain;
+                opacity: 0.6;
+                margin-left: 50px;
+            }
+        }
+    }
+}

@@ -1,0 +1,149 @@
+@import './mixins/medias';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,700,700i');
+
+
+    .app {
+        width: 414px;
+        height: 736px;
+        background: #FBFCFC;
+        background-size: 100%;
+
+        &__eat {
+            width: 414px;
+            height: 182px;
+            background-color: rgb(105, 135, 114, 0.4);
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            border-bottom-left-radius: 110px 50px;
+            border-bottom-right-radius: 110px 50px;
+            margin-top: -13px;
+
+            &-felp {
+                font-weight: lighter;
+                font-size: 20px;
+                text-align: center;
+                padding: 10px;
+            }
+
+            &-profil {
+                width: 80px;
+                height: 80px;
+                margin-left: 320px;
+                margin-top: -50px;
+            }
+
+            &-date {
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 40px;
+                margin-top: -10px;
+                text-decoration: underline;
+                text-shadow: 0.5px 0.5px 0.5px black;
+            }
+
+            &-avatar {
+                width: 100px;
+                height: 100px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
+        &__containerE {
+            background-color: #e8e8e8;
+            border-radius: 20px;
+            margin-top: 60px;
+            width: 414px;
+            height: 510px;
+            position: fixed;
+
+            &-name {
+                margin-left: 40px;
+            }
+
+            &-pizza {
+                margin-left: 40px;
+                font-weight: bold;
+                margin-top: -10px;
+            }
+
+            &-imgS {
+                margin-left: 40px;
+                margin-top: -10px;
+                width: 116px;
+                height: 20px;
+            }
+        }
+
+        &__containerR {
+
+            &-title {
+                font-size: 18px;
+                color: #145A32;
+                font-weight: bold;
+                margin-left: 40px;
+            }
+
+            &-line {
+                border-top: 1px solid #145a32; 
+                width : 207px;
+                margin-top: -30px; 
+            }
+
+            &-infos { 
+                font-size: 16px;
+                margin-left: 40px;
+                margin-top: 22px;
+            }
+        }
+
+        &__containerI {
+            &-title {
+                font-size: 18px;
+                opacity: 0.2;
+                font-weight: bold;
+                margin-left: 230px;
+                margin-top: -285px;
+                color: #1C2833;
+            }
+
+            &-line {
+                border-top: 1px solid #1C2833; 
+                opacity: 0.2;
+                width : 207px;
+                margin-top: -30px; 
+                margin-left: 207px;
+            }
+
+            &-infos {
+                font-size: 16px;
+                margin-top: 22px;
+                margin-left: 230px;
+            }
+        }
+
+        &__containerB {
+            width: 152px;
+            height: 35px;
+            border-radius: 22px;
+            background-color: #fbfcfc;
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            margin-left: 225px;
+            margin-top: 22px;
+
+            &-click {
+                color: #145a32;
+                margin-top: 6px;
+                margin-left: 14px;
+                font-size: 16px;
+            }
+
+
+        }
+    }
+}

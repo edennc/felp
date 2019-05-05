@@ -1,0 +1,155 @@
+@import './mixins/medias';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,700,700i');
+
+    .app {
+        width: 414px;
+        height: 736px;
+        background: #FBFCFC;
+        background-size: 100%;
+
+        &__cook {
+            width: 414px;
+            height: 200px;
+            background-color: rgb(105, 135, 114, 0.4);
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            border-bottom-left-radius: 110px 50px;
+            border-bottom-right-radius: 110px 50px;
+            margin-top: -13px;
+
+            &-felp {
+                font-weight: lighter;
+                font-size: 20px;
+                text-align: center;
+                padding: 10px;
+            }
+    
+            &-profil {
+                width: 80px;
+                height: 80px;
+                margin-left: 320px;
+                margin-top: -50px;
+            }
+    
+            &-month {
+                font-size: 18px;
+                font-weight: bold;
+                margin-left: 40px;
+                margin-top: -10px;
+            }
+
+            &-want {
+                font-size: 16px;
+                margin-left: 40px;
+            }
+
+            &-blocC {
+                width: 182px;
+                height: 44px;
+                border-radius: 8px;
+                box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+                background-color: #fbfcfc;
+                margin-left: 110px;
+                margin-top: -40px;
+            }
+
+            &-imgC {
+                width: 25px;
+                height: 25px;
+                margin-top: 30px; 
+                margin-left: 130px;
+            }
+
+            &-calendar {
+                font-size: 16px;
+                margin-top: -30px; 
+                margin-left: 163px;
+                font-weight: bold;
+            }
+        }
+
+        &__cook2 {
+            height: 88%;
+
+            &-share {
+                color: #145A32;
+                margin-top: 70px;
+                margin-left: 40px;
+            }
+
+            &-img {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                margin-left: 35px;
+                margin-top: 10px;
+            }
+
+            &-blocP {
+                width: 318px;
+                height: 70px;
+                box-shadow: 1px 1px 3px #aaa;
+                border-radius: 10px;
+                background-color: #FBFCFC;
+                box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+                margin-left: 68px;
+                margin-top: -76px;
+            }
+
+            &-info1 {
+                font-size: 16px;
+                margin-left: 123px;
+                margin-top: -65px;
+            }
+            &-info2 {
+                font-size: 16px;
+                margin-left: 123px;
+                margin-top: -14px;
+            }
+            &-info3 {
+                font-size: 16px;
+                margin-left: 123px;
+                margin-top: -15px;
+            }
+
+            &-circle {
+                width: 55px;
+                height: 55px;
+                border-radius: 50%;
+                margin-left: 40px;
+                box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+                background-color: #ffffff;
+                margin-top: -45px;
+            }
+
+            &-imgM {
+                width: 25px;
+                height: 25px;
+                margin-left: 55px;
+                margin-top: 40px;
+            }
+
+            &-blocM {
+                width: 318px;
+                height: 70px;
+                box-shadow: 1px 1px 3px #aaa;
+                border-radius: 10px;
+                background-color: #FBFCFC;
+                box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+                margin-left: 68px;
+                margin-top: -62px;
+            }
+
+            &-more {
+                font-size: 16px;
+                margin-left: 123px;
+                margin-top: -45px;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,231 @@
+@import './mixins/medias';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+}
+
+.app {
+    width: 414px;
+    height: 738px;
+    background: #FBFCFC;
+    background-size: 100%;
+
+    &__blue {
+        width: 414px;
+        height: 319px;
+        background-color: rgb(106, 137, 204, 0.6);
+        border-radius: 0 0 40px 40px;
+        margin-top: -20px;
+
+        &-icon {
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+            letter-spacing: 1px;
+            font-weight: lighter;
+            color: #1c2833;
+        }
+
+        &-profil {
+            width: 55px;
+            height: 55px;
+            background-color: black;
+            border-radius: 50%;
+            border: solid 0.5px #eaf2d4;
+            margin-left: 340px;
+            margin-top: -60px;
+        }
+
+        &-container {
+            padding-left: 40px;
+            width: 80%;
+        }
+
+        &-containerMonth {
+            color: #1c2833;
+            font-size: 18px;
+            margin-top: -2px;
+        }
+
+        &-containerDay {
+            color: #1c2833;
+            font-size: 11px;
+            margin-top: -5px;
+            flex-direction: row;
+            display: flex;
+            flex-wrap: wrap;
+            text-shadow: 0.4px 0.4px 0.4px #1c2833;
+        }
+
+        &-contenairText {
+            color: #1c2833;
+            font-size: 18px;
+        }
+
+        &-search {
+            background-color: #fbfcfc;
+            width: 160px;
+            height: 44px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 3px #aaa;
+            margin-left: 40px;
+        }
+
+        &-research {
+            color: rgb(28, 40, 51, 0.4);
+            font-size: 18px;
+            margin-left: 68px;
+            margin-top: -33px;
+        }
+
+        &-filtres {
+            background-color: #fbfcfc;
+            width: 86px;
+            height: 42px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 3px #aaa;
+            margin-top: -50px;
+            margin-left: 230px;
+        }
+    }
+
+
+    &__end {
+
+        &-chance {
+            color: #145a32;
+            font-size: 18px;
+            padding-left: 40px;
+            margin-top: 48px;
+        }
+
+        &-avatar1 {
+            background-color: #fbfcfc;
+            width: 318px;
+            height: 70px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 3px #aaa;
+            margin-left: 72px;
+        }
+
+        &-profil1 {
+            width: 55px;
+            height: 55px;
+            background-color: black;
+            border-radius: 50%;
+            border: solid 0.5px #eaf2d4;
+            margin-left: 40px;
+            margin-top: -63px;
+        }
+
+        &-infos {
+            color: #1c2833;
+            font-size: 16px;
+            margin-left: 135px;
+            line-height: 95px;
+            margin-top: -93px;
+        }
+
+        &-avatar2 {
+            background-color: #fbfcfc;
+            width: 318px;
+            height: 70px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 3px #aaa;
+            margin-left: 72px;
+            margin-top: -20px;
+        }
+
+        &-profil2 {
+            width: 55px;
+            height: 55px;
+            background-color: black;
+            border-radius: 50%;
+            border: solid 0.5px #eaf2d4;
+            margin-left: 40px;
+            margin-top: -63px;
+        }
+
+        &-infos2 {
+            color: #1c2833;
+            font-size: 16px;
+            margin-left: 135px;
+            line-height: 95px;
+            margin-top: -93px;
+        }
+
+        &-avatar3 {
+            background-color: #fbfcfc;
+            width: 318px;
+            height: 70px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 3px #aaa;
+            margin-left: 72px;
+            margin-top: -20px;
+        }
+
+        &-profil3 {
+            width: 55px;
+            height: 55px;
+            background-color: black;
+            border-radius: 50%;
+            border: solid 0.5px #eaf2d4;
+            margin-left: 40px;
+            margin-top: -63px;
+        }
+
+        &-infos3 {
+            color: #1c2833;
+            font-size: 16px;
+            margin-left: 135px;
+            line-height: 95px;
+            margin-top: -93px;
+        }
+
+        &-avatar4 {
+            background-color: #fbfcfc;
+            width: 318px;
+            height: 70px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 3px #aaa;
+            margin-left: 72px;
+            margin-top: -20px;
+        }
+
+        &-profil4 {
+            width: 55px;
+            height: 55px;
+            background-color: black;
+            border-radius: 50%;
+            border: solid 0.5px #eaf2d4;
+            margin-left: 40px;
+            margin-top: -63px;
+        }
+
+        &-infos4 {
+            color: #1c2833;
+            font-size: 16px;
+            margin-left: 135px;
+            line-height: 95px;
+            margin-top: -93px;
+        }
+    }
+
+    &__footer {
+        background-color: #f7f7f7;
+        box-shadow: 3px 1px 3px #aaa;
+        width: 414px;
+        height: 61px;
+
+
+        &-eat {
+            width: 32px;
+            height: 32px;
+            color: green;
+        }
+    }
+
+}
