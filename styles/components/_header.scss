@@ -1,4 +1,4 @@
-@import './mixins/medias';
+@import '../mixins/_medias.scss';
 
 body {
     margin: 0;
@@ -16,7 +16,7 @@ body {
     &__blue {
         width: 414px;
         height: 319px;
-        background-color: rgb(106, 137, 204, 0.6);
+        background-color: rgba(106, 137, 204, 0.6);
         border-radius: 0 0 40px 40px;
         margin-top: -20px;
 
@@ -75,7 +75,7 @@ body {
         }
 
         &-research {
-            color: rgb(28, 40, 51, 0.4);
+            color: rgba(28, 40, 51, 0.4);
             font-size: 18px;
             margin-left: 68px;
             margin-top: -33px;
